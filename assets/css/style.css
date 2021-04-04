@@ -90,7 +90,7 @@ section div {
 /*   WORK SECTION  */
 .main-project,
 .project {
-    border: 3px solid var(--aqua);
+    border: 4px solid var(--aqua);
     position: relative;
     margin: 5px 0;
 }
@@ -137,4 +137,24 @@ section div {
 .two,
 .four {
     float: left;
+}
+
+
+/*     CONTACT ME SECTION    */
+
+.contact-info {
+    margin: auto;
+}
+.contact-info ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact-info ul li {
+    border-bottom: 3px solid var(--darkblue);
+}
+.contact-info ul li a {
+    text-decoration: none;
+    color: var(--darkblue);
 }
