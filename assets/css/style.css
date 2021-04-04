@@ -61,19 +61,23 @@ header nav ul li {
 
 
 
-/*     MAIN  CONTENT    */
+/*    --   MAIN  CONTENT  --    */
 section {
-    padding: 20px 50px 20px 80px;
+    background-color: #f0ebf2;
+    padding: 20px 80px;
     display: flex;
 }
 section h2 {
-    flex: 45%;
+    flex: 0 0 20%;
     color: var(--darkblue);
     border-right: 3px solid var(--darkblue);
     padding-right: 10px;
     font-size: 35px;
     text-align: right;
     margin-right: 25px;
+}
+section div {
+    flex: 0 0 80%;
 }
 
 /*   ABOUT ME SECTION   */
@@ -83,3 +87,54 @@ section h2 {
     line-height: 1.4;
 }
 
+/*   WORK SECTION  */
+.main-project,
+.project {
+    border: 3px solid var(--aqua);
+    position: relative;
+    margin: 5px 0;
+}
+
+.main-project {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.main-project img {
+    width: 100%;
+}
+
+.project {
+    width: 49%;
+    height: 100px;
+    overflow: hidden;
+}
+.project img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+.project-name {
+    background-color: var(--aqua);
+    color: var(--darkgray);
+    position: absolute;
+    bottom: 15px;
+    padding: 5px;
+    line-height: 1.4;
+}
+.project-name h3 {
+    font-size: 18px;
+}
+.project-name h4 {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.three,
+.five {
+    float: right;
+}
+.two,
+.four {
+    float: left;
+}
