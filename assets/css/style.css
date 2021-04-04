@@ -158,3 +158,36 @@ section div {
     text-decoration: none;
     color: var(--darkblue);
 }
+
+
+
+/*     RESUME SECTION    */
+#resume p {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}
+#resume a {
+    text-decoration: none;
+    color: whitesmoke;
+    background: #4c67d3;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
+/*    FOOTER     */
+footer {
+    background-color: var(--darkgray);
+    padding: 20px 20px;
+    color: var(--aqua);
+}
+footer h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    float: left;
+}
+footer p {
+    text-align: right;
+}
