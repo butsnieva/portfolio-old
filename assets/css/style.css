@@ -61,3 +61,25 @@ header nav ul li {
 
 
 
+/*     MAIN  CONTENT    */
+section {
+    padding: 20px 50px 20px 80px;
+    display: flex;
+}
+section h2 {
+    flex: 45%;
+    color: var(--darkblue);
+    border-right: 3px solid var(--darkblue);
+    padding-right: 10px;
+    font-size: 35px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+/*   ABOUT ME SECTION   */
+#about-me p {
+    color: var(--darkblue);
+    font-size: 14px;
+    line-height: 1.4;
+}
+
