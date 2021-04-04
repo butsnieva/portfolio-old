@@ -5,10 +5,12 @@
 }
 
 :root {
-    --darkgray: #2c2f30;
-    --aqua: #89c4c5;
-    --darkblue: #2d3864;
-    font-family: Arial, Helvetica, sans-serif;
+    --darkgray: #2f3e46;
+    --darkgreen: #354f52;
+    --forestgreen: #52796f;
+    --dustygreen: #84a98c;
+    --lightgreen: #eff8e9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*    HEADER   */
@@ -17,14 +19,15 @@ header {
     display: flex;
 }
 header h1 {
-    background: var(--aqua);
+    background: var(--dustygreen);
     color: var(--darkgray);
     padding: 5px 10px 5px 40px;
     margin: 20px auto 10px 0 ;
     text-align: end;
+    border-top-right-radius: 15px;
 }
 header a {
-    color: var(--aqua);
+    color: var(--dustygreen);
     text-decoration: none;
 }
 header nav {
@@ -37,7 +40,7 @@ header nav ul {
     justify-content: space-between;
 }
 header nav ul li {
-    border-bottom: 3px solid var(--aqua);
+    border-bottom: 3px solid var(--dustygreen);
     padding: 10px;
     padding-bottom: 4px;
     margin: auto 5px;
@@ -46,31 +49,46 @@ header nav ul li {
 
 /*    HERO SECTION   */
 .hero {
-    background-image: url(/assets/images/sea-edge-79ab30e2.png);
+    background-image: url(/assets/images/image-from-rawpixel-id-2282770-png.png);
+    background-color: var(--lightgreen);
     background-size: cover;
-    padding: 50px;
-    background-position: center;
+    padding: 120px;
+    background-position: bottom;
+    position: relative;
 }
 .hero h2 {
     color: var(--darkgray);
-    background: var(--aqua);
+    background: var(--dustygreen);
     padding: 5px;
     position: absolute;
-    left: 70%;
+    left: 15%;
+    top: 3%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.hero img {
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    box-shadow: 0px 0px 80px var(--darkgray);
 }
 
 
 
 /*    --   MAIN  CONTENT  --    */
 section {
-    background-color: #f0ebf2;
+    background-color: var(--lightgreen);
     padding: 20px 80px;
     display: flex;
 }
 section h2 {
     flex: 0 0 20%;
-    color: var(--darkblue);
-    border-right: 3px solid var(--darkblue);
+    color: var(--darkgreen);
+    border-right: 3px solid var(--darkgreen);
+    border-top-right-radius: 15px;
     padding-right: 10px;
     font-size: 35px;
     text-align: right;
@@ -82,7 +100,7 @@ section div {
 
 /*   ABOUT ME SECTION   */
 #about-me p {
-    color: var(--darkblue);
+    color: var(--darkgreen);
     font-size: 14px;
     line-height: 1.4;
 }
@@ -90,7 +108,8 @@ section div {
 /*   WORK SECTION  */
 .main-project,
 .project {
-    border: 4px solid var(--aqua);
+    border: 4px solid var(--dustygreen);
+    border-radius: 15px;
     position: relative;
     margin: 5px 0;
 }
@@ -115,12 +134,13 @@ section div {
     
 }
 .project-name {
-    background-color: var(--aqua);
+    background-color: var(--dustygreen);
     color: var(--darkgray);
     position: absolute;
     bottom: 15px;
     padding: 5px;
     line-height: 1.4;
+    box-shadow: 0 0 20px var(--darkgray);
 }
 .project-name h3 {
     font-size: 18px;
@@ -152,11 +172,11 @@ section div {
     justify-content: space-around;
 }
 .contact-info ul li {
-    border-bottom: 3px solid var(--darkblue);
+    border-bottom: 3px solid var(--darkgreen);
 }
 .contact-info ul li a {
     text-decoration: none;
-    color: var(--darkblue);
+    color: var(--darkgreen);
 }
 
 
@@ -169,8 +189,8 @@ section div {
 }
 #resume a {
     text-decoration: none;
-    color: whitesmoke;
-    background: #4c67d3;
+    color: var(--lightgreen);
+    background: var(--forestgreen);
     padding: 5px;
     border-radius: 15px;
 }
@@ -181,7 +201,7 @@ section div {
 footer {
     background-color: var(--darkgray);
     padding: 20px 20px;
-    color: var(--aqua);
+    color: var(--dustygreen);
 }
 footer h2 {
     font-size: 18px;
