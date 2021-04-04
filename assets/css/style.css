@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkgray: #2c2f30;
+    --aqua: #89c4c5;
+    --darkblue: #2d3864;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*    HEADER   */
+header {
+    background-color: var(--darkgray);
+    display: flex;
+}
+header h1 {
+    background: var(--aqua);
+    color: var(--darkgray);
+    padding: 5px 10px 5px 40px;
+    margin: 20px auto 10px 0 ;
+    text-align: end;
+}
+header a {
+    color: var(--aqua);
+    text-decoration: none;
+}
+header nav {
+    margin: auto;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav ul li {
+    border-bottom: 3px solid var(--aqua);
+    padding: 10px;
+    padding-bottom: 4px;
+    margin: auto 5px;
+}
+
+
+/*    HERO SECTION   */
+.hero {
+    background-image: url(/assets/images/sea-edge-79ab30e2.png);
+    background-size: cover;
+    padding: 50px;
+    background-position: center;
+}
+.hero h2 {
+    color: var(--darkgray);
+    background: var(--aqua);
+    padding: 5px;
+    position: absolute;
+    left: 70%;
+}
+
+
+
+/*    --   MAIN  CONTENT  --    */
+section {
+    background-color: #f0ebf2;
+    padding: 20px 80px;
+    display: flex;
+}
+section h2 {
+    flex: 0 0 20%;
+    color: var(--darkblue);
+    border-right: 3px solid var(--darkblue);
+    padding-right: 10px;
+    font-size: 35px;
+    text-align: right;
+    margin-right: 25px;
+}
+section div {
+    flex: 0 0 80%;
+}
+
+/*   ABOUT ME SECTION   */
+#about-me p {
+    color: var(--darkblue);
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/*   WORK SECTION  */
+.main-project,
+.project {
+    border: 4px solid var(--aqua);
+    position: relative;
+    margin: 5px 0;
+}
+
+.main-project {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.main-project img {
+    width: 100%;
+}
+
+.project {
+    width: 49%;
+    height: 100px;
+    overflow: hidden;
+}
+.project img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+.project-name {
+    background-color: var(--aqua);
+    color: var(--darkgray);
+    position: absolute;
+    bottom: 15px;
+    padding: 5px;
+    line-height: 1.4;
+}
+.project-name h3 {
+    font-size: 18px;
+}
+.project-name h4 {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.three,
+.five {
+    float: right;
+}
+.two,
+.four {
+    float: left;
+}
+
+
+/*     CONTACT ME SECTION    */
+
+.contact-info {
+    margin: auto;
+}
+.contact-info ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact-info ul li {
+    border-bottom: 3px solid var(--darkblue);
+}
+.contact-info ul li a {
+    text-decoration: none;
+    color: var(--darkblue);
+}
+
+
+
+/*     RESUME SECTION    */
+#resume p {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}
+#resume a {
+    text-decoration: none;
+    color: whitesmoke;
+    background: #4c67d3;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
+/*    FOOTER     */
+footer {
+    background-color: var(--darkgray);
+    padding: 20px 20px;
+    color: var(--aqua);
+}
+footer h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    float: left;
+}
+footer p {
+    text-align: right;
+}
