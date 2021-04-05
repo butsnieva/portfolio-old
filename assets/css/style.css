@@ -29,6 +29,8 @@ header h1 {
 header a {
     color: var(--dustygreen);
     text-decoration: none;
+    font-size: 18px;
+    padding: 0 5px;
 }
 header nav {
     margin: auto;
@@ -44,6 +46,9 @@ header nav ul li {
     padding: 10px;
     padding-bottom: 4px;
     margin: auto 5px;
+}
+header nav ul li:hover {
+    border-bottom: 4px solid var(--dustygreen);
 }
 
 
@@ -72,7 +77,7 @@ header nav ul li {
     border-radius: 50%;
     position: absolute;
     top: 15%;
-    left: 44%;
+    left: 45%;
     box-shadow: 0px 0px 80px var(--darkgray);
 }
 
@@ -85,7 +90,6 @@ section {
     display: flex;
 }
 section h2 {
-    flex: 0 0 20%;
     color: var(--darkgreen);
     border-right: 3px solid var(--darkgreen);
     border-top-right-radius: 15px;
@@ -93,6 +97,7 @@ section h2 {
     font-size: 35px;
     text-align: right;
     margin-right: 25px;
+    flex: 0 0 15%;
 }
 section div {
     flex: 0 0 80%;
@@ -101,8 +106,9 @@ section div {
 /*   ABOUT ME SECTION   */
 #about-me p {
     color: var(--darkgreen);
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 80%;
 }
 
 /*   WORK SECTION  */
@@ -180,10 +186,16 @@ section div {
 }
 .contact-info ul li {
     border-bottom: 3px solid var(--darkgreen);
+    padding: 0 10px 5px 10px;
 }
+.contact-info ul li:hover {
+    border-bottom: 4px solid var(--darkgreen);
+}
+
 .contact-info ul li a {
     text-decoration: none;
     color: var(--darkgreen);
+    font-size: 20px;
 }
 
 
@@ -201,6 +213,10 @@ section div {
     padding: 5px;
     border-radius: 15px;
 }
+#resume a:hover {
+    background-color: var(--dustygreen);
+    color: var(--darkgreen);
+}
 
 
 
@@ -213,10 +229,7 @@ footer {
 footer h2 {
     font-size: 18px;
     font-weight: lighter;
-    float: left;
-}
-footer p {
-    text-align: right;
+    text-align: end;
 }
 
 
