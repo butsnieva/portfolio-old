@@ -8,7 +8,7 @@
     --darkgray: #2f3e46;
     --darkgreen: #354f52;
     --forestgreen: #52796f;
-    --dustygreen: #84a98c;
+    --dustygreen: #96c09f;
     --lightgreen: #eff8e9;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -121,6 +121,10 @@ section div {
 }
 .main-project img {
     width: 100%;
+    opacity: 70%;
+}
+.main-project img:hover {
+    opacity: 100%;
 }
 
 .project {
@@ -131,7 +135,10 @@ section div {
 .project img {
     width: 100%;
     object-fit: cover;
-    
+    opacity: 70%;
+}
+.project img:hover {
+    opacity: 100%;
 }
 .project-name {
     background-color: var(--dustygreen);
@@ -210,4 +217,16 @@ footer h2 {
 }
 footer p {
     text-align: right;
+}
+
+
+
+
+
+
+/*    COMING SOON PAGE   */
+.coming-soon {
+    height: 400px;
+    justify-content: center;
+    padding-bottom: 100px;
 }
