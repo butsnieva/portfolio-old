@@ -14,6 +14,7 @@
     background-color: var(--lightgreen);
 }
 
+
 /*    HEADER   */
 header {
     background-color: var(--darkgray);
@@ -53,9 +54,10 @@ header nav ul li:hover {
 }
 
 
+
 /*    HERO SECTION   */
 .hero {
-    background-image: url(/assets/images/image-from-rawpixel-id-2282770-png.png);
+    background-image: url(../images/image-from-rawpixel-id-2282770-png.png);
     background-color: var(--lightgreen);
     background-size: cover;
     padding: 120px;
@@ -68,10 +70,10 @@ header nav ul li:hover {
     padding: 5px;
     position: absolute;
     left: 15%;
-    top: 3%;
+    top: 0%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
+    box-shadow: 10px 5px 10px var(--forestgreen);
 }
 .hero img {
     width: 200px;
@@ -79,7 +81,7 @@ header nav ul li:hover {
     position: absolute;
     top: 15%;
     left: 45%;
-    box-shadow: 0px 0px 80px var(--darkgray);
+    box-shadow: 0px 0px 80px var(--darkgreen);
 }
 
 
@@ -174,6 +176,7 @@ section div {
 }
 
 
+
 /*     CONTACT ME SECTION    */
 
 .contact-info {
@@ -189,13 +192,11 @@ section div {
     border-bottom: 3px solid var(--darkgreen);
     padding: 0 10px 5px 10px;
 }
-
 .contact-info ul li a {
     text-decoration: none;
     color: var(--darkgreen);
     font-size: 20px;
 }
-
 
 
 
@@ -229,16 +230,8 @@ footer h2 {
     font-size: 18px;
     font-weight: lighter;
     text-align: end;
+    padding-right: 50px;
 }
-
-
-/*    COMING SOON PAGE   */
-.coming-soon {
-    height: 400px;
-    justify-content: center;
-    padding-bottom: 100px;
-}
-
 
 
 
@@ -286,7 +279,6 @@ section h2 {
     padding-right: 15px;
     margin-top: 15px;
 }
-
 .main-project,
 .project {
     margin-top: 15px;
@@ -300,7 +292,6 @@ section h2 {
 .project {
     width: 46%;
 }
-
 #contact-me {
     display: inline-block;
     width: 100%;
@@ -321,6 +312,7 @@ section h2 {
 }
 footer h2 {
     text-align: start;
+    padding-right: 0px;
 }
 
 
@@ -339,7 +331,6 @@ header nav ul li {
     padding: 5px 20px 10px 20px;
 }
 .hero h2 {
-    top: 0;
     left: 20px;
 }
 section {
@@ -361,6 +352,7 @@ footer h2 {
     text-align: center;
 }
 }
+
 
 @media screen and (max-width: 575px){
 header nav ul li {
